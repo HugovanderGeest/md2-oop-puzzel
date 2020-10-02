@@ -5,8 +5,11 @@
 * Clone **jouw fork** van de repository naar je computer
 * Maak een nieuwe branch aan met dezelfde naam als de map: `git checkout -b "<jouwnaam-hier>"`
 * Open het project in je PHP editor
-* BELANGRIJK: Verander de naam van de map "jouw-naam" in jouw voornaam
-  * Dubbele naam in de klas? Dan ook eerste letter achternaam
+
+## BELANGRIJK
+Maak een **KOPIE** van de map "jouw-naam" en verander de naam van die KOPIE-map in jouw voornaam.  
+Laat de map *jouw_naam* staan.
+(Dubbele naam in de klas? Dan ook eerste letter achternaam)
 
 ---
  
