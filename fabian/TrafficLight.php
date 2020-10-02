@@ -8,7 +8,13 @@ class TrafficLight
 
     public function __construct($code)
     {
-
+        $this->code = $code;
+        $this->active = true;
+        $this->lights = [
+            'red' => 1,
+            'orange' => 0,
+            'green' => 0,
+        ];
 
 
 
@@ -20,7 +26,13 @@ class TrafficLight
 
     public function switchOn($color)
     {
-
+        $validColors = ['red', 'orange', 'green'];
+        if (!$this->isValidColor($color)) {
+            echo 'Ik heb geen licht met de kleur: ' . $color . "\n";
+            return;
+        }
+        $this->switchAllLightsOff();
+        $this->lights[$color] = 1;
 
 
 
@@ -31,7 +43,16 @@ class TrafficLight
 
     public function switchOff($color)
     {
+        if ( $this->active === false ) {
+            return;
+        }
+        if ( ! $this->isValidColor( $color ) ) {
+            echo 'Ik heb geen licht met de kleur: ' . $color . "\n";
 
+            return;
+        }
+
+        $this->lights[ $color ] = 0;
 
 
 
@@ -44,7 +65,8 @@ class TrafficLight
 
     public function deactivateTrafficLight()
     {
-
+        $this->active = false;
+        $this->switchAllLightsOff();
 
 
 
@@ -55,7 +77,8 @@ class TrafficLight
 
     public function activateTrafficLight()
     {
-
+        $this->active = true;
+        $this->switchOn('red');
 
 
 
@@ -66,7 +89,7 @@ class TrafficLight
 
     public function getCode()
     {
-
+        return $this->code;
 
 
 
@@ -114,7 +137,9 @@ class TrafficLight
 
     private function switchAllLightsOff()
     {
-
+        foreach ($this->lights as $color => $status) {
+            $this->lights[$color] = 0;
+        }
 
 
 
