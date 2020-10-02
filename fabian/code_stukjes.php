@@ -1,5 +1,5 @@
 <?php
-// Code stukje 1
+// Code stukje 1 TODO
 if ( $this->active === false ) {
 	return;
 }
@@ -22,19 +22,19 @@ private $active;
 // -------------------------------
 
 
-// Code stukje 3
+// Code stukje 3 TODO
 foreach ($this->lights as $color => $status) {
 	$this->lights[$color] = 0;
 }
 // -------------------------------
 
 
-// Code stukje 4
+// Code stukje 4 TODO
 return $this->code;
 // -------------------------------
 
 
-// Code stukje 5
+// Code stukje 5 
 $validColors = ['red', 'orange', 'green'];
 if (in_array($color, $validColors)) {
 	return true;
@@ -44,7 +44,7 @@ if (in_array($color, $validColors)) {
 // -------------------------------
 
 
-// Code stukje 6
+// Code stukje 6 TODO
 $validColors = ['red', 'orange', 'green'];
 if (!$this->isValidColor($color)) {
 	echo 'Ik heb geen licht met de kleur: ' . $color . "\n";
@@ -68,7 +68,7 @@ if ($this->active === true) {
 // -------------------------------
 
 
-// Code stukje 8
+// Code stukje 8 TODO
 $this->code = $code;
 $this->active = true;
 $this->lights = [
@@ -79,14 +79,14 @@ $this->lights = [
 // -------------------------------
 
 
-// Code stukje 9
+// Code stukje 9 TODO
 $this->active = false;
 $this->switchAllLightsOff();
 
 // -------------------------------
 
 
-// Code stukje 10
+// Code stukje 10 TODO
 $this->active = true;
 $this->switchOn('red');
 
