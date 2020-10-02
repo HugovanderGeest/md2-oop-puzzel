@@ -22,7 +22,7 @@ private $active;
 // -------------------------------
 
 
-// Code stukje 3
+// Code stukje 3 
 foreach ($this->lights as $color => $status) {
 	$this->lights[$color] = 0;
 }
