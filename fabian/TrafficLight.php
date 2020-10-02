@@ -2,7 +2,9 @@
 
 class TrafficLight
 {
-
+    private $lights;
+    private $code;
+    private $active;
 
     public function __construct($code)
     {
@@ -73,7 +75,15 @@ class TrafficLight
 
     public function showLightStatus()
     {
+        echo 'Status van Stoplicht ' . $this->code . ":\n";
 
+        if ($this->active === true) {
+            foreach ($this->lights as $color => $status) {
+                echo $color . ' --> ' . $status . "\n";
+            }
+        } else {
+            echo 'Stoplicht inactief: oranje knippert' . "\n";
+        }
 
 
 
@@ -86,7 +96,12 @@ class TrafficLight
 
     private function isValidColor($color)
     {
-
+        $validColors = ['red', 'orange', 'green'];
+        if (in_array($color, $validColors)) {
+            return true;
+        } else {
+            return false;
+        }
 
 
 
