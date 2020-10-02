@@ -19,6 +19,17 @@ class TrafficLight
 
     public function switchOn($color)
     {
+        $validColors = ['red', 'orange', 'green'];
+        if (!$this->isValidColor($color)) {
+            echo 'Ik heb geen licht met de kleur: ' . $color . "\n";
+            return;
+        }
+        $this->switchAllLightsOff();
+        $this->lights[$color] = 1;     
+    }
+
+    public function switchOff($color)
+    {
         if ($this->active === false) {
             return;
         }
@@ -29,17 +40,6 @@ class TrafficLight
         }
 
         $this->lights[$color] = 0;
-    }
-
-    public function switchOff($color)
-    {
-        $validColors = ['red', 'orange', 'green'];
-        if (!$this->isValidColor($color)) {
-            echo 'Ik heb geen licht met de kleur: ' . $color . "\n";
-            return;
-        }
-        $this->switchAllLightsOff();
-        $this->lights[$color] = 1;
     }
 
     public function deactivateTrafficLight()
