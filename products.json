@@ -1,0 +1,58 @@
+[
+  {
+    "code": 1,
+    "title": "Greek Yogurt Smoothie",
+    "image_url": "https://www.wellplated.com/wp-content/uploads/2020/01/Greek-yogurt-smoothie-peanut-butter.jpg",
+    "price": 3.59,
+    "description": "RATING: _________  ★★★★★ _________ Je hoeft dit jaar geen aspiraties te hebben om een ​​smoothiemens te zijn om van elke slok van deze gezonde Griekse yoghurtsmoothie te genieten."
+  },
+  {
+    "code": 2,
+    "title": "Strawberry Banana Smoothie",
+    "image_url": "https://www.spendwithpennies.com/wp-content/uploads/2014/01/SpendWithPennies-2-Strawberry-Banana-Smoothie-23.jpg",
+    "price": 2.33,
+    "description": "RATING: _________ ★★★★ _________ Een Strawberry Banana Smoothie is het beste ontbijtrecept ooit! Met slechts een handvol ingrediënten, een paar minuten en zoemen in de blender, heb je een heerlijke maaltijd voor onderweg!"
+  },
+  {
+    "code": 3,
+    "title": "Frozen Fruit Smoothie",
+    "image_url": "https://www.dinneratthezoo.com/wp-content/uploads/2018/05/frozen-fruit-smoothie-3.jpg",
+    "price": 2.99,
+    "description": "RATING: _________ ★★★ __________ Deze smoothie van bevroren fruit is een ijskoude mix van appelsap en bevroren bosbessen, kersen, frambozen en mango. Een gemakkelijke drank boordevol voedingsstoffen die perfect is voor een warme dag."
+  },
+  {
+    "code": 4,
+    "title": "Mixed Berry Yogurt Smoothie",
+    "image_url": "https://cookingformysoul.com/wp-content/uploads/2018/08/berry-smoothie.jpg",
+    "price": 4.50,
+    "description": "RATING: _________ ★★★★★ _________ Verpakt met gezonde bessen en bananen, is deze Mixed Berry Yoghurt Smoothie de perfecte manier om je ochtend te beginnen of om van te genieten tijdens een leuke middag."
+  },
+    {
+    "code": 5,
+    "title": "Easy Berry Smoothie",
+    "image_url": "https://www.spendwithpennies.com/wp-content/uploads/2018/12/SpendWithPennies-Mixed-Berry-Smoothie-24.jpg",
+    "price": 3.95,
+    "description": "RATING: _________ ★★★★★ _________ Dit Berry Smoothie Recept is een van mijn favoriete gemakkelijke ontbijten aller tijden. Verse bessen worden gemengd met melk, yoghurt en chiazaad om een ​​gezonde maaltijd of snack voor onderweg te creëren voor elk gehemelte."
+  },
+  {
+    "code": 6,
+    "title": "Raspberry Sunrise Smoothie",
+    "image_url": "https://s23209.pcdn.co/wp-content/uploads/2014/05/IMG_9288edit-360x360.jpg",
+    "price": 2.95,
+    "description": "RATING: _________ ★★★★ _________ Met ons Cabo-uitje slechts een week verwijderd, heb ik heel hard geprobeerd om de zware snacks te verminderen en me over te geven aan supergemakkelijke smoothies. Ik heb minstens 10 verschillende smoothievariaties gemaakt"
+},
+{
+  "code": 7,
+  "title": "Avocado Strawberry Layered Smoothie",
+  "image_url": "https://aseasyasapplepie.com/wp-content/uploads/2017/01/avocado-strawberry-layered-smoothie-500x500.jpg",
+  "price": 3.25,
+  "description": "RATING: _________ ★★★★ _________ Deze Avocado Aardbei Layered Smoothie is gezond, vullend, licht zoet en natuurlijk mooi!"
+},
+{
+  "code": 8,
+  "title": "Mango Smoothie",
+  "image_url": "https://i2.wp.com/www.downshiftology.com/wp-content/uploads/2018/08/mango-smoothie-9.jpg",
+  "price": 2.25,
+  "description": "RATING: _________ ★★★ _________ Deze ultra romige mango-smoothie is het beste zomerse smoothie-recept. Het is gemaakt met verse mango en een handvol ingrediënten (zuivelvrij of zuivelvrij) voor de ultieme dorstlesser."
+}
+]
